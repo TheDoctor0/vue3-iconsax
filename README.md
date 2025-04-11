@@ -67,14 +67,14 @@ Local registration:
 
 ```jsx
 <template>
-  <Aave color="blue" size="50" type="linear" />
+  <AaveIcon color="blue" size="50" type="linear" />
 </template>
 
 <script>
-import { Aave } from "vue3-iconsax";
+import { AaveIcon } from "vue3-iconsax";
 export default {
   components: {
-    Aave
+  AaveIcon
   },
 };
 </script>
