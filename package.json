@@ -1,25 +1,30 @@
 {
 	"main": "./dist/index.js",
-	"name": "vue-iconsax",
-	"description": "Iconsax icon pack for Vue",
+	"name": "vue3-iconsax",
+	"description": "Iconsax icon pack for Vue3",
 	"author": "Emad Moghimi <jaxtheprime@gmail.com>",
+	"contributors": [
+		"Dawid Janik <dawid.janik@inception.dev>"
+	],
 	"license": "MIT",
 	"private": false,
-	"version": "2.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"files": [
 		"dist"
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/JaxThePrime/vue-iconsax"
+		"url": "git+https://github.com/TheDcotor0/vue3-iconsax"
 	},
 	"keywords": [
 		"vue",
+		"vue3",
 		"icons",
 		"iconsax",
 		"icon components",
-		"vue components"
+		"vue components",
+		"vue3 components"
 	],
 	"module": "dist/index.js",
 	"scripts": {
