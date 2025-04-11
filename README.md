@@ -27,13 +27,13 @@ The features of this package include the following:
 - Install Yarn package
 
 ```bash
-yarn add vue-iconsax
+yarn add vue3-iconsax
 ```
 
 - Install NPM package
 
 ```bash
-npm install vue-iconsax
+npm install vue3-iconsax
 ```
 
 ## Usage
