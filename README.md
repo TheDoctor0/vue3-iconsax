@@ -1,7 +1,7 @@
 <article ><a name="user-content-readme-top"></a></p>
 
 <div align="center">
-  <h1 align="center"></a>iconsax for Vue</h1>
+  <h1 align="center"></a>iconsax for Vue3</h1>
   <p align="center">
     A total of 6000 icons in 6 different designs | <strong>Only supported for vue3</strong>
     <br>
@@ -12,7 +12,7 @@
 
 # About the Project
 
-the features of this package include the following:
+The features of this package include the following:
 
 - 1000 icons in 6 different types
 - Perfectly balance
@@ -67,17 +67,15 @@ Local registration:
 
 ```jsx
 <template>
-  // Dynamic icon component - Use PascalCase for iconName prop
-  <VsxIcon :iconName="iconName" color="blue" size="50" type="linear" />
+  <Aave color="blue" size="50" type="linear" />
 </template>
 
 <script>
-import { VsxIcon } from "vue-iconsax";
+import { Aave } from "vue3-iconsax";
 export default {
   components: {
-    VsxIcon
+    Aave
   },
-  props:['iconName']
 };
 </script>
 ```
@@ -90,12 +88,5 @@ export default {
 | `size`     | `number` `string`                                   | 24px           | size="24" or :size="24"                                            |
 | `type`     | `Linear` `Outline` `TwoTone` `Bulk` `Broken` `Bold` | `Linear`       | icons styles                                                       |
 | `iconName` | string                                              |                | iconName is only required with vsx-icon tag (Dynamic icon imports) |
-
-## Contact
-
-Emad Moghimi [jaxtheprime@gmail.com](jaxtheprime@gmail.com)
-
-Project Link:
-[https://github.com/JaxThePrime/vue-iconsax](https://github.com/JaxThePrime/vue-iconsax)
 
 </article >
